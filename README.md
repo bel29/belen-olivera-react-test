@@ -14,8 +14,8 @@ This project is a React application configured with TypeScript, SCSS, and variou
 
 1. **Clone the repository:**
 
-git clone <repository-url>
-cd tecnica-react
+```git clone https://github.com/bel29belen-olivera-react-test.git```
+
 
 ## Install the dependencies
 ```npm install  ```
