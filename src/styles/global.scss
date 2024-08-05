@@ -37,8 +37,8 @@ body {
   background-color: $nav-bar-color !important;
   border: $nav-bar-color !important;
   display: block;
-  color: white;
-  height: 80%;
+  color: white !important;
+  height: 40px;
 }
 .btn-primary > a {
   color: white;
