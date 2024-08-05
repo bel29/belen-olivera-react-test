@@ -1,0 +1,35 @@
+@import "colors";
+.inputGroup {
+  width: 400px !important;
+  margin: 10px 0;
+}
+
+.searchBox {
+  padding: 10px 20px;
+  border: 1px solid $light-gray;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px $shadow;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.searchBox:focus {
+  border-color: $blue;
+  box-shadow: 0 2px 8px $dark-blue;
+  outline: none;
+}
+
+.searchIcon {
+  background: white;
+  border: 1px solid $light-gray;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.searchIcon .fa-search {
+  color: $gray;
+}

@@ -1,0 +1,48 @@
+@import "colors";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Color de fondo opcional */
+  font-family: "Roboto", sans-serif;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.page-link {
+  background-color: $nav-bar-color !important;
+  border: $nav-bar-color !important;
+  color: white !important;
+}
+.active > .page-link {
+  background-color: $dark-violet !important;
+}
+.btn-primary {
+  background-color: $nav-bar-color !important;
+  border: $nav-bar-color !important;
+  display: block;
+  color: white;
+  height: 80%;
+}
+.btn-primary > a {
+  color: white;
+}
+.navbar-collapse {
+  justify-content: space-between;
+}

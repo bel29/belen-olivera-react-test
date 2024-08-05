@@ -1,0 +1,47 @@
+@import "colors";
+
+.navbarCustom {
+  background-color: $nav-bar-color;
+  padding: 5px 80px;
+  color: white !important;
+}
+
+.accDrop {
+  background-color: $nav-bar-color !important;
+  border: $nav-bar-color !important;
+  color: white !important;
+  align-items: center;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+
+  > a {
+    color: white;
+    margin-left: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.9);
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
+
+.productsLink {
+  font-weight: bold;
+  color: white !important;
+  background-color: #6c757d;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #5a6268;
+  }
+}

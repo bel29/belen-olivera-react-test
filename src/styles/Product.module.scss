@@ -1,0 +1,56 @@
+@import "colors";
+
+.container {
+  margin-top: 5%;
+}
+
+.filterButton {
+  border: 1.5px solid $nav-bar-color !important;
+  border-radius: 61px !important;
+  background: transparent !important;
+  color: $nav-bar-color !important;
+}
+.searchBox {
+  margin-bottom: 3px;
+  margin-top: 3px;
+  max-width: 500px;
+}
+.addButton {
+  border: 1.5px solid $nav-bar-color !important;
+  border-radius: 61px !important;
+  background: $nav-bar-color !important;
+  color: white !important;
+  margin-left: 5px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  &-electronics {
+    background-color: $electronics-color !important;
+    color: white !important;
+  }
+  &-jewelery {
+    background-color: $jewelery-color !important;
+    color: white !important;
+  }
+  &-mens-clothing {
+    background-color: $mens-clothing-color !important;
+    color: white !important;
+  }
+  &-womens-clothing {
+    background-color: $womens-clothing-color !important;
+    color: white !important;
+  }
+}
